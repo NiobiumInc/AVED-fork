@@ -2,7 +2,7 @@ THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
 ============================================================
 
 Project: AVED-fork
-Generated: 2026-09-27
+Generated: 2026-10-03
 Tool: SCANOSS (snippet detection with License dataset)
 Components: 5
 
@@ -40,12 +40,12 @@ COMPONENT ATTRIBUTIONS
   Copyright:
     (c) Copyright 2022; Advanced Micro Devices; Inc.
     (c) Copyright 2024; Advanced Micro Devices; Inc.
+    Copyright 2023 Advanced Micro Devices Inc. All rights reserved
     Copyright 2023-2025 Advanced Micro Devices Inc. All rights reserved
     Copyright 2023-2026 Advanced Micro Devices Inc. All rights reserved
-    Copyright (C) 2023 Advanced Micro Devices; Inc. All rights reserved.
+    Copyright 2023-present Advanced Micro Devices Inc. All rights reserved
     Copyright (c) 2023 Advanced Micro Devices; Inc.
     Copyright (c) 2023-present Advanced Micro Devices; Inc.
-    Copyright (c) 2023-present Advanced Micro Devices; Inc. All rights reserved.
     Copyright (c) 2024 Advanced Micro Devices; Inc. All rights reserved.
   License: GPL-2.0-only, MIT
 
