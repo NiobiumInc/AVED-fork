@@ -2,9 +2,9 @@ THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
 ============================================================
 
 Project: AVED-fork
-Generated: 2026-04-24
+Generated: 2026-09-27
 Tool: SCANOSS (snippet detection with License dataset)
-Components: 3
+Components: 5
 
 This file lists all third-party software components detected
 in this repository, along with their licenses and copyright
@@ -14,37 +14,48 @@ notices as required by those licenses.
 
 LICENSE SUMMARY
 
-  GPL-2.0-only [COPYLEFT]: 2 component(s)
-  MIT: 2 component(s)
-  X11: 1 component(s)
+  GPL-2.0-only [COPYLEFT]: 3 component(s)
+  MIT: 4 component(s)
 
 ------------------------------------------------------------
 
 COMPONENT ATTRIBUTIONS
 
-  aved
+  AVED
   Version: amd_v80_gen5x8_23.2_exdes_1_20231204
+  Source: https://github.com/xilinx/aved
+  PURL: pkg:github/Xilinx/AVED
+  Copyright:
+    (c) Copyright 2022; Advanced Micro Devices; Inc.
+    (c) Copyright 2023; Advanced Micro Devices; Inc.
+    Copyright (C) 2023; Advanced Micro Devices; Inc. All rights reserved.        #
+    Copyright (c) 2023-present Advanced Micro Devices; Inc.
+    Copyright (c) 2023-present Advanced Micro Devices; Inc. All rights reserved.
+  License: GPL-2.0-only, MIT
+
+  AVED
+  Version: amd_v80_gen5x8_23.2_exdes_2_20240408
   Source: https://github.com/xilinx/aved
   PURL: pkg:github/xilinx/aved
   Copyright:
     (c) Copyright 2022; Advanced Micro Devices; Inc.
-    (c) Copyright 2023; Advanced Micro Devices; Inc.
     (c) Copyright 2024; Advanced Micro Devices; Inc.
     Copyright 2023-2025 Advanced Micro Devices Inc. All rights reserved
+    Copyright 2023-2026 Advanced Micro Devices Inc. All rights reserved
     Copyright (C) 2023 Advanced Micro Devices; Inc. All rights reserved.
-    Copyright (C) 2023; Advanced Micro Devices; Inc. All rights reserved.
-    Copyright (C) 2023; Advanced Micro Devices; Inc. All rights reserved.        #
     Copyright (c) 2023 Advanced Micro Devices; Inc.
-    Copyright (c) 2023 Advanced Micro Devices; Inc. All rights reserved.
     Copyright (c) 2023-present Advanced Micro Devices; Inc.
     Copyright (c) 2023-present Advanced Micro Devices; Inc. All rights reserved.
-    Copyright (c) 2023; Advanced Micro Devices; Inc.
-    Copyright (c) 2024 Advanced Micro Devices; Inc.
     Copyright (c) 2024 Advanced Micro Devices; Inc. All rights reserved.
-    Copyright 2022; Advanced Micro Devices; Inc.
-    Copyright 2023; Advanced Micro Devices; Inc.
-    Copyright 2024; Advanced Micro Devices; Inc.
-  License: GPL-2.0-only, MIT, X11
+  License: GPL-2.0-only, MIT
+
+  ccan
+  Version: avb_2.0.4-dev0
+  Source: https://github.com/audioscience/ccan
+  PURL: pkg:github/audioscience/ccan
+  Copyright:
+    Copyright (C) 2011 Joseph A. Adams (joeyadams3.14159@gmail.com)
+  License: MIT
 
   gemtools
   Version: v1.7
@@ -52,7 +63,6 @@ COMPONENT ATTRIBUTIONS
   PURL: pkg:github/gemtools/gemtools
   Copyright:
     Copyright (C) 2011 Joseph A. Adams (joeyadams3.14159@gmail.com)
-    Copyright (c) 2011 Joseph A. Adams (joeyadams3.14159@gmail.com)
   License: MIT
 
   recorder
@@ -66,27 +76,6 @@ COMPONENT ATTRIBUTIONS
 ------------------------------------------------------------
 
 FULL LICENSE TEXTS
-
---- MIT ---
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
 
 --- GPL-2.0-only ---
 
@@ -105,7 +94,7 @@ this program; if not, write to the Free Software Foundation, Inc.,
 Full license text: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 
---- X11 ---
+--- MIT ---
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
